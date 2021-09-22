@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+
+<link rel="stylesheet" href="stylesheet.css" />
+<script src="jquery-1.9.1.js"></script>
+<script src="jquery.collapse.js"></script>
+<script src="jquery.collapse_storage.js"></script>
+<title>Rosa Doornenbal</title>
+
+</head>
+<body>
+
+<div id="header">
+      <p class="homeknop">
+      <a href="index.html" style="text-decoration:none;">Rosa Doornenbal</a></p>
+      <a href="gentlepush.html">Gentle Push</a><br>
+      <a href="committorelax.html">Commit to Relax</a><br>
+      <a href="mindmytea.html">Mind My Tea</a><br>
+      <a href="theworkshop.html">The Workshop</a><br>
+      <a href="honey.html">Hunnybunlookingforsculpture</a><br>
+      <a href="monumentals.html">Monumentals</a><br>
+      <a href="andaboutcarry.html">And about Carry</a><br>
+      <a href="hangingout.html">Hanging Out</a><br>
+      <a href="goodvibes.html">Good Vibes, Living Water</a><br>
+      <a href="roundobject.html">Round Object</a> <br>
+      <br>
+      <br>
+      <a href="info.html">CV</a>
+  </div>
+
+
+	<div id="tekst"> Photos
+    <input type="button" class="button" id="curven00" value="01" />
+    <input type="button" class="button" id="curven01" value="02" />
+    <input type="button" class="button" id="curven02" value="03" />
+    <input type="button" class="button" id="curven03" value="04" />
+<br>
+<br>
+
+ <div id="demo" data-collapse="accordion">          
+<p class="open"><u>Sculpture Play</u><br>(click to hide/open)</p>
+<ul>
+dimensions: 25x45 cm<br>
+<br>
+2012
+</ul>
+</div>
+
+
+
+    
+    
+<script src="libs/jquery/jquery.js"></script>
+  <script src="jquery.backstretch.js"></script> 
+<script>
+	    $.backstretch("img/sculptureplay/curven00.jpg", {fade: 500});
+	    
+		$("#curven00").click(function (e) {
+        e.preventDefault();
+	      $.backstretch("img/sculptureplay/curven00.jpg");
+	    });
+		
+	    $("#curven01").click(function (e) {
+        e.preventDefault();
+	      $.backstretch("img/sculptureplay/curven01.jpg");
+	    });
+	    
+	    $("#curven02").click(function (e) {
+        e.preventDefault();
+	      $.backstretch("img/sculptureplay/curven02.jpg");
+	    });
+		
+		$("#curven03").click(function (e) {
+        e.preventDefault();
+	      $.backstretch("img/sculptureplay/curven03.jpg");
+	    });
+    </script>
+</body>
+</html>

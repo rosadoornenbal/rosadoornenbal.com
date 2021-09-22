@@ -1,0 +1,145 @@
+@charset "UTF-8";
+/* CSS Document */
+
+		    body {
+		    background-color: black;
+		     }
+		    
+		    html{
+		    	height:100%;
+		    }
+
+		    /* FONT ALLES (body class) */
+		    .dun{
+				font-weight: lighter;
+				font-size:14px;
+				font-family: Helvetica, Arial, sans-serif; 
+		    	color: #ff80b3;
+		    	-webkit-font-smoothing: antialiased; margin:0px; 
+			}
+	
+		    /* MENU */
+		 	#header{ 
+			  width:200px;
+			  margin-top:10px;
+			  margin-left:30px;
+			  position:absolute;
+			  line-height: 20px;
+			}
+
+			/* MARGIN TUSSEN KOP EN REST */
+			.homeknop{
+				margin-bottom: 20px;
+		  	}
+	  
+			/* TEKSTBLOK PROJECTEN */
+		  	#tekst{ 
+			  width:400px;
+			  height:auto;
+			  position:absolute;
+			  top:10px;
+			  left:300px;
+			  line-height: 20px;
+		 	}
+	  
+			/* INFO OP CV PAGINA */
+		  	#infotekstinfo{ 
+			  width:1000px;
+			  height:auto;
+			  position:absolute;
+			  top:10px;
+			  left:300px;
+			  line-height: 20px;
+			}
+
+			/* website by EB */
+			.footer{
+				 margin-top:200px;
+			}
+
+
+			/* TABEL CV PAGINA */
+			table, th, td {
+			    border: 0px;
+			    padding-right:20px;
+			    vertical-align: top;
+			    text-align:left;
+			    padding-bottom:5px;
+			}
+
+			td{
+				min-width:110px;
+			}
+
+			table{
+				width:70%;
+			}
+
+			/* KLAPMENU */
+			ul, menu, dir {
+				display: block;
+				list-style-type: disc;
+				-webkit-margin-before: 1em;
+				-webkit-margin-after: 1em;
+				-webkit-margin-start: 0px;
+				-webkit-margin-end: 0px;
+				-webkit-padding-start: 0px;
+			}
+	  
+
+	  		/* LINKS */
+	  		a {
+	  			color: #ff80b3;
+	  		}
+
+			a:link {
+				text-decoration: none;
+			}
+			a:visited {
+				
+			}
+			a:hover {
+				
+				text-decoration: underline;
+			}
+			a:active {
+				
+				text-decoration: underline;
+			}
+
+
+		
+
+			::selection
+			{
+			background-color:#000;
+
+			}
+			::-moz-selection
+			{
+			color:#000;
+
+			}
+
+
+
+				/* FOTO BUTTONS */
+			.button {
+				border:none;
+			 	background: none;
+			    border: none;
+			    display: inline;
+			    font: inherit;
+			    margin: 0;
+			    padding: 0;
+			    outline: none;
+			    outline-offset: 0;
+				padding:;
+				text-decoration:underline;
+				color: #ff80b3;
+				cursor: pointer !important;
+			}
+
+
+
+			.pointer {cursor: pointer;}
