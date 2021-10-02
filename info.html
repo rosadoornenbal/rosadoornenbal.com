@@ -33,23 +33,31 @@
       <a href="andaboutcarry.html">And about Carry</a><br>
       <a href="hangingout.html">Hanging Out</a><br>
       <a href="goodvibes.html">Good Vibes, Living Water</a><br>
-      
+
       <br>
       <br>
       <a href="info.html">info</a>
     </div>
 
 
-      <div id="infotekstinfo">  
+      <div id="infotekstinfo">
         <p class="homeknop">&nbsp;
-          
-        </p>      
+
+        </p>
 
         <p>
           Rosa Doornenbal currently lives and works in London and Amsterdam.<br>
-          
+
           <br>
-          <a href="mailto:contact@rosadoornenbal.com">contact[at]rosadoornenbal.com</a><br>
+          <a id="mailto" href="">rosanadja[at]gmail[dot]com</a>
+          <script>
+            var emailElement = document.querySelector('#mailto');
+            var emailText = emailElement.textContent;
+            var email = emailText.replace(/\s/g, '').replace('[at]', '@').replace('[dot]', '.');
+            emailElement.textContent = email;
+            emailElement.setAttribute('href', 'mailto:' + email);
+          </script>
+          <br>
         </p>
 
 <br>
@@ -59,7 +67,7 @@
 
       <table>
 
-     
+
          <tr>
           <td style="padding-top:20px"><b>Upcoming:</b></td>
         </tr>
@@ -71,7 +79,7 @@
           <td>&nbsp;</td>
           <td><i>Forum, Bread and Games</i>, Group show, curated by Natalija Paunic, Open Space, London, (GB).</td>
         </tr>
-        
+
 
 
         <tr>
@@ -89,7 +97,7 @@
           <td>2020</td>
           <td>Performing in <i>The Desire to Create Something that Already Exists</i>, Performance Choreographed by Vincent Riebeek, Frascati, Amsterdam. </td>
         </tr>
-        
+
         <tr>
           <td>2019</td>
           <td>6x6 project screening, SET Dalston, London (GB).</td>
@@ -195,7 +203,7 @@
           <td>&nbsp;</td>
           <td>&nbsp;</td>
         </tr>
-       
+
         <tr>
           <td><b>Other projects:</b></td>
           <td><i>Part of Peer Mentoring group hosted by Camden Arts Centre, organized by Lea Collet. </td>
@@ -205,7 +213,7 @@
           <td><i>changing room</i>: a curatorial project in collaboration with Marios Stamatis that evolves around the commission of ‘wearable’ art editions and is presented in a monthly launching event in an unused changing room in South East London. <a href="http://www.changingroom.net/" target="blank" style="padding-left:20px"><u>link</u></a> </td>
         </tr>
 
-      
+
 
         <tr>
           <td>&nbsp;</td>
@@ -256,7 +264,7 @@
         </tr>
         <tr>
           <td>&nbsp;</td>
-          <td>Bachelor of Fine Arts, Gerrit Rietveld Academie, Fine Arts department<br> 
+          <td>Bachelor of Fine Arts, Gerrit Rietveld Academie, Fine Arts department<br>
               Amsterdam, NL. 2009-2013</td>
         </tr>
         <tr>
@@ -272,11 +280,11 @@
 
 
 
-  
-  
 
 
-            
+
+
+
 <br><br>
 
 
@@ -328,13 +336,13 @@
 
 
 
-    
-    
+
+
 <script src="libs/jquery/jquery.js"></script>
 <script src="jquery.backstretch.js"></script>
 <script>
 	    $.backstretch("img/shedidntknowwhattosay/1Before-she-lost-her-tongue-and-tail.jpg", {fade: 200});
-	 
+
     </script>
 </body>
 </html>
